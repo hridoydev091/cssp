@@ -1,0 +1,110 @@
+/* .shopping{
+    position: relative;
+}
+.shopping .mainshopping{
+width: 100px;
+height: 100px;
+}
+.shopping::before{
+    position: relative;
+    content: "";
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: aquamarine;
+    right: 25%;
+    top: -81px;
+    font-size: 25px;
+    color: brown;
+    line-height: 50px;
+    text-align: center;
+
+} */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+img{
+    vertical-align: middle;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: aquamarine;
+    padding: 8px 0;
+   
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+    padding-right: 300px;
+}
+.NavMiddle{
+    display: inline-block;
+}
+.NavMidddleUl,
+.NavMidddleUlLi,
+.NavMidddleUlLi-item{
+    display: inline-block;
+}
+.NavMidddleUlLi-item{
+    margin-right: 20px;
+    transition: all linear;
+    -webkit-transition: all linear;
+    -moz-transition: all linear;
+    -ms-transition: all linear;
+    -o-transition: all linear;
+    position: relative;
+}
+.NavMiddle-item:hover::after{
+    transform: scale(1);
+    color: red;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.NavMidddleUlLi-item::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    bottom: -4px;
+    left: 0px;
+    background-color: cadetblue;
+    transform: scale(0);
+    -webkit-transform: all linear .3s;
+    -moz-transform: all linear .3s;
+    -ms-transform: all linear .3s;
+    -o-transform: all linear .3s;
+    transform: all linear .3s;
+}
+.custombutton{
+    display: inline-block;
+
+}
+.custombutton-contact{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* ===================navbar css start================= */

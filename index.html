@@ -7,7 +7,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- <span class="shopping">
+        <img src="data:image/png;base64,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" alt="" class="mainshopping">
+    </span> -->
+
+    <!-------------------------nabar start------------------------>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <picture>
+                    <img src="picture/Logo.png" alt="" class="logo__image">
+                </picture>
+                <div class="NavMiddle">
+                    <ul class="NavMiddleUl">
+                        <li class="NavMidddleUlLi"><a href="#" class="NavMidddleUlLi-item">Home</a></li>
+                        <li class="NavMidddleUlLi"><a href="#" class="NavMidddleUlLi-item">About</a></li>
+                        <li class="NavMidddleUlLi"><a href="#" class="NavMidddleUlLi-item">Home</a></li>
+                        <li class="NavMidddleUlLi"><a href="#" class="NavMidddleUlLi-item">service</a></li>
+                        <li class="NavMidddleUlLi"><a href="#" class="NavMidddleUlLi-item">Blog</a></li>
+                        <li class="NavMidddleUlLi"><a href="#" class="NavMidddleUlLi-item">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="custombutton">
+                <button class="custombutton-contact">Contact Us</button>
+            </div>
+        </div>
+    </nav>
+
 
 </body>
 </html>
